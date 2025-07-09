@@ -1,0 +1,215 @@
+[
+    {
+      "disease": "Bronchial Asthma (Shvasa/Tamaka Shvasa)",
+      "symptoms": ["`shortness` of breath", "wheezing", "chest tightness", "cough", "difficulty breathing", "rapid breathing", "chest pain", "fatigue", "anxiety"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma with honey and pippali churna improves breathing and reduces cough. Studies show 86-96% relief in symptoms.",
+        "dosage": "65–125 mg twice daily with honey for 21–30 days.",
+        "anupana": "Honey or madhu + pippali churna + talisadi churna.",
+        "cautions": "Not during acute infection; monitor respiratory status. Avoid in severe asthma attacks.",
+        "research": "Clinical studies show significant improvement in PEF rates and breath holding time."
+      }
+    },
+    {
+      "disease": "Chronic Cough (Kasa)",
+      "symptoms": ["persistent cough", "dry cough", "productive cough", "throat irritation", "chest discomfort", "hoarseness", "post-nasal drip"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma with honey and herbal powders relieves chronic cough and throat irritation.",
+        "dosage": "65 mg twice daily with honey for 21 days.",
+        "anupana": "Honey + pippali churna + talisadi churna.",
+        "cautions": "Monitor for underlying conditions; avoid in acute infections."
+      }
+    },
+    {
+      "disease": "Hepato-Splenomegaly (Yakrit-Pliha Vriddhi)",
+      "symptoms": ["enlarged liver", "enlarged spleen", "abdominal fullness", "fatigue", "abdominal pain", "loss of appetite", "weight loss", "jaundice", "ascites"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma with madhu and herbal powders reduces organ size and relieves symptoms. Studies show up to 65% reduction in organ size.",
+        "dosage": "65–250 mg twice daily with honey for up to 45 days.",
+        "anupana": "Buttermilk or honey + Pachak herbs.",
+        "cautions": "Monitor liver/spleen size via ultrasound and lab tests. Regular liver function tests required.",
+        "research": "Clinical studies show significant reduction in organ size and improvement in symptoms."
+      }
+    },
+    {
+      "disease": "Malabsorption Syndrome (Grahani)",
+      "symptoms": ["chronic diarrhea", "indigestion", "weight loss", "fatigue", "abdominal pain", "bloating", "undigested food in stool", "deficiency symptoms"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma with honey and digestive herbs improves absorption and digestive function.",
+        "dosage": "65–250 mg twice daily with honey for 30 days.",
+        "anupana": "Honey + takra (buttermilk) + digestive herbs.",
+        "cautions": "Monitor weight and nutritional status. Check for underlying conditions."
+      }
+    },
+    {
+      "disease": "Hyperacidity (Amlapitta)",
+      "symptoms": ["heartburn", "sour belching", "nausea", "abdominal discomfort", "acidity", "chest burning", "bitter taste", "loss of appetite"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma with honey and cooling herbs reduces acidity and improves digestion.",
+        "dosage": "25 mg once daily after meals for 21–30 days.",
+        "anupana": "Honey + trikatu powder + cooling herbs.",
+        "cautions": "Avoid in peptic ulcers without digestive indication; monitor acidity."
+      }
+    },
+    {
+      "disease": "Obesity / High Cholesterol (Medoroga, Dyslipidemia)",
+      "symptoms": ["weight gain", "high cholesterol", "fatigue", "breathlessness", "excessive sweating", "lethargy", "joint pain", "snoring"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma (plain or STB) lowers lipids and supports weight management. Somnathi Tamra Bhasma (STB) shows stronger effects.",
+        "dosage": "30 mg twice daily for 21–30 days (STB: 75 mg BD).",
+        "anupana": "Milk or honey.",
+        "cautions": "Accompany with diet and exercise; monitor lipid profile.",
+        "research": "Animal studies show significant anti-hyperlipidemic and cardio-protective effects."
+      }
+    },
+    {
+      "disease": "Anemia (Pandu)",
+      "symptoms": ["pallor", "fatigue", "weakness", "shortness of breath", "dizziness", "cold extremities", "brittle nails", "hair loss"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma enhances hematopoiesis when used with hematinic herbs.",
+        "dosage": "25 mg twice daily with honey and iron-rich herbs.",
+        "anupana": "Honey + power of Punarnava or Lohasava.",
+        "cautions": "Check CBC; avoid if iron overload is suspected."
+      }
+    },
+    {
+      "disease": "Skin Diseases (Kustha)",
+      "symptoms": ["skin lesions", "discoloration", "itching", "scaling", "dry skin", "pigmentation", "skin inflammation"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma with honey and skin-friendly herbs improves skin conditions.",
+        "dosage": "15–25 mg twice daily with honey for 30 days.",
+        "anupana": "Honey + neem powder + turmeric.",
+        "cautions": "Monitor skin reactions; avoid in severe infections."
+      }
+    },
+    {
+      "disease": "Piles (Arsha)",
+      "symptoms": ["anal pain", "bleeding", "itching", "swelling", "prolapse", "discomfort", "constipation"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma with honey and ghee supports healing and reduces bleeding.",
+        "dosage": "15 mg BD with honey and ghee internally; apply medicated ghee externally.",
+        "anupana": "Honey‑ghee mix.",
+        "cautions": "Stop if excessive bleeding; monitor stools."
+      }
+    },
+    {
+      "disease": "Diabetes (Prameha)",
+      "symptoms": ["excessive urination", "excessive thirst", "excessive hunger", "fatigue", "weight loss", "blurred vision", "slow healing wounds"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma with bitter herbs helps manage blood sugar levels.",
+        "dosage": "15–25 mg twice daily with honey for 30 days.",
+        "anupana": "Honey + bitter gourd juice + neem powder.",
+        "cautions": "Monitor blood sugar regularly; continue prescribed medications."
+      }
+    },
+    {
+      "disease": "Ascites (Udara)",
+      "symptoms": ["abdominal swelling", "fluid retention", "discomfort", "shortness of breath", "loss of appetite", "fatigue", "weight gain"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma with diuretic herbs helps reduce fluid accumulation.",
+        "dosage": "25–50 mg twice daily with honey for 30 days.",
+        "anupana": "Honey + punarnava + gokshura.",
+        "cautions": "Monitor fluid balance; check for underlying liver/heart conditions."
+      }
+    },
+    {
+      "disease": "Parasitic Infections (Krimi)",
+      "symptoms": ["abdominal pain", "itching", "digestive issues", "loss of appetite", "weight loss", "anal itching", "nausea"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma with anti-parasitic herbs helps eliminate intestinal parasites.",
+        "dosage": "15–25 mg twice daily with honey for 21 days.",
+        "anupana": "Honey + vidanga + neem powder.",
+        "cautions": "Monitor for parasite elimination; check stool tests."
+      }
+    },
+    {
+      "disease": "Food Poisoning",
+      "symptoms": ["vomiting", "abdominal pain", "diarrhea", "nausea", "fever", "dehydration", "weakness"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma induces mild vomiting to expel toxins.",
+        "dosage": "50 mg once in morning with warm water.",
+        "anupana": "Warm water.",
+        "cautions": "Not in dehydration; resume rehydration immediately."
+      }
+    },
+    {
+      "disease": "Gallbladder Pain / Stones",
+      "symptoms": ["RUQ pain", "bloating after fatty food", "nausea", "vomiting", "indigestion", "back pain", "shoulder pain"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma with bitter gourd juice can relieve pain and may reduce stones.",
+        "dosage": "15 mg BD with 20 mL karela juice for 30 days.",
+        "anupana": "Bitter gourd juice.",
+        "cautions": "Use under supervision; monitor gallbladder via ultrasound."
+      }
+    },
+    {
+      "disease": "Tuberculosis (Rajayakshma)",
+      "symptoms": ["chronic cough", "blood in sputum", "chest pain", "fatigue", "weight loss", "night sweats", "fever", "loss of appetite"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma with anti-TB herbs supports treatment and improves immunity.",
+        "dosage": "25–50 mg twice daily with honey for 45 days.",
+        "anupana": "Honey + pippali + talisadi.",
+        "cautions": "Use as adjuvant therapy; continue prescribed TB medications."
+      }
+    },
+    {
+      "disease": "Leukoderma (Shvitra)",
+      "symptoms": ["white patches on skin", "loss of pigmentation", "itching", "dry skin", "skin sensitivity"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma with skin-friendly herbs may help restore pigmentation.",
+        "dosage": "15–25 mg twice daily with honey for 60 days.",
+        "anupana": "Honey + bakuchi + turmeric.",
+        "cautions": "Monitor skin changes; protect from sun exposure."
+      }
+    },
+    {
+      "disease": "Arthritis (Sandhigata Vata)",
+      "symptoms": ["joint pain", "stiffness", "swelling", "reduced mobility", "morning stiffness", "fatigue", "muscle weakness"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma with anti-inflammatory herbs reduces joint pain and inflammation.",
+        "dosage": "25 mg twice daily with honey for 30 days.",
+        "anupana": "Honey + guggulu + shallaki.",
+        "cautions": "Monitor joint function; continue prescribed medications."
+      }
+    },
+    {
+      "disease": "Tumors (Arbuda)",
+      "symptoms": ["lumps", "swelling", "pain", "weight loss", "fatigue", "loss of appetite", "unusual bleeding"],
+      "tamra_applicable": true,
+      "remedy": {
+        "description": "Tamra Bhasma with anti-tumor herbs may help reduce tumor size.",
+        "dosage": "15–25 mg twice daily with honey for 45 days.",
+        "anupana": "Honey + kanchanara + guggulu.",
+        "cautions": "Use under strict medical supervision; continue prescribed treatments."
+      }
+    },
+    {
+      "disease": "Non-specific Symptoms",
+      "symptoms": ["fatigue", "weakness", "general discomfort", "mild symptoms", "vague complaints"],
+      "tamra_applicable": false,
+      "remedy": {
+        "description": "These symptoms are too general to recommend specific treatment. Please provide more specific symptoms or consult a healthcare provider.",
+        "dosage": "Not applicable",
+        "anupana": "Not applicable",
+        "cautions": "Seek medical evaluation for proper diagnosis."
+      }
+    }
+  ]
+  

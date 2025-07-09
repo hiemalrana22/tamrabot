@@ -1,0 +1,72 @@
+{
+    "faq": [
+      {
+        "question": "What is Tamra Bhasma?",
+        "answer": "Tamra Bhasma is an Ayurvedic herbo-mineral medicine made from purified & calcined copper, yielding nano-crystalline copper sulfide. It’s used for digestion, liver, respiratory, and metabolic health."
+      },
+      {
+        "question": "How is Tamra Bhasma prepared?",
+        "answer": "It goes through Shodhana (purification via quenching), Bhavana (triturating with Kajjali & herbal juices), multiple metal calcination cycles (Marana), and sometimes Amritikarana (final detoxification)."
+      }
+    ],
+    "diseases": [
+      {
+        "disease": "Indigestion",
+        "symptoms": ["bloating", "gas", "loss of appetite", "burping"],
+        "tamra_applicable": true,
+        "remedy": {
+          "description": "Tamra Bhasma with honey & trikatu stimulates digestion.",
+          "dosage": "25 mg once daily after meals for 21–30 days.",
+          "cautions": "Monitor acidity; avoid ulcers."
+        }
+      }
+    ],
+    "small_talk": [
+      {
+        "intent": "greeting",
+        "examples": ["Hi", "Hello", "Hey there", "Good morning", "What's up?"],
+        "responses": ["Hello! How can I assist you today regarding Tamra Bhasma?", "Hi there! 🧡 Want to know about Tamra Bhasma or feeling something in particular?"]
+      },
+      {
+        "intent": "ask_name",
+        "examples": ["What's your name?", "Who are you?", "Are you a robot?"],
+        "responses": ["I'm TamraBot, your Ayurvedic assistant for Tamra Bhasma!", "Yes, I'm an AI assistant focused on Tamra Bhasma. How can I help?"]
+      },
+      {
+        "intent": "ask_ability",
+        "examples": ["What can you do?", "How can you help me?", "What do you do?"],
+        "responses": ["I can answer questions on Tamra Bhasma, match your symptoms to conditions, and suggest remedies with dosage."]
+      },
+      {
+        "intent": "how_are_you",
+        "examples": ["How are you?", "How's it going?", "You ok?"],
+        "responses": ["I'm doing great, thanks! Ready to assist you with Tamra Bhasma 😊"]
+      },
+      {
+        "intent": "ask_age",
+        "examples": ["How old are you?", "What's your age?"],
+        "responses": ["Age is just a number! I was created recently to help you with Tamra Bhasma."]
+      },
+      {
+        "intent": "joke",
+        "examples": ["Tell me a joke", "Do you know a joke?", "You're funny"],
+        "responses": ["Why did the copper go to therapy? To reduce its complexes! 😁", "I'm still studying Ayurveda, but here's a joke: What do you call a relaxed mineral? Com-poseite!"]
+      },
+      {
+        "intent": "thanks",
+        "examples": ["Thanks", "Thank you", "Appreciate it"],
+        "responses": ["You're welcome!", "Happy to help with your Tamra Bhasma queries!"]
+      },
+      {
+        "intent": "goodbye",
+        "examples": ["Bye", "See you", "Goodbye", "Talk later"],
+        "responses": ["Goodbye! Feel free to come back anytime with Tamra Bhasma questions.", "See you soon — stay healthy!"]
+      },
+      {
+        "intent": "fallback",
+        "examples": ["...", "I don't know", "Blah blah"],
+        "responses": ["Sorry, I didn't get that. Could you rephrase?", "I'm here to chat about Tamra Bhasma. What would you like to know?"]
+      }
+    ]
+  }
+  
