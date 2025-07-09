@@ -1,4 +1,6 @@
+import sys
 import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import json
 import random
 import uuid
@@ -19,12 +21,12 @@ import difflib
 from fastapi.responses import JSONResponse
 from fastapi import status
 
-from .intent_detection import detect_intent
-from .symptom_extraction import extract_canonical_symptoms, SYMPTOM_SYNONYM_MAP, SYMPTOM_PHRASES, get_symptom_categories
-from .symptom_dialogue import ask_for_more_symptoms, handle_symptom_clarification, handle_symptom_analysis
-from .disease_matching import match_disease
-from .session_manager import get_session, update_session, reset_session, hard_reset_session
-from .llm_fallback import get_llm_response, filter_llm_output
+from backend.intent_detection import detect_intent
+from backend.symptom_extraction import extract_canonical_symptoms, SYMPTOM_SYNONYM_MAP, SYMPTOM_PHRASES, get_symptom_categories
+from backend.symptom_dialogue import ask_for_more_symptoms, handle_symptom_clarification, handle_symptom_analysis
+from backend.disease_matching import match_disease
+from backend.session_manager import get_session, update_session, reset_session, hard_reset_session
+from backend.llm_fallback import get_llm_response, filter_llm_output
 
 # --- Fix: Robust data file path ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -38,7 +40,7 @@ if OPENAI_API_KEY:
 OPENROUTER_API_KEY = os.environ.get('OPENROUTER_API_KEY')
 if not OPENROUTER_API_KEY:
     # Set the provided OpenRouter API key as default
-    OPENROUTER_API_KEY = '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'
+    OPENROUTER_API_KEY = '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'
     os.environ['OPENROUTER_API_KEY'] = OPENROUTER_API_KEY
     print("[INFO] Using default OpenRouter API key.")
 else:
@@ -822,7 +824,7 @@ async def chat_endpoint(req: ChatRequest):
             # Build follow-up if confidence is not high
             follow_up = ""
             if confidence < 0.7:
-                from .disease_matching import suggest_follow_up_questions
+                from backend.disease_matching import suggest_follow_up_questions
                 follow_ups = suggest_follow_up_questions(list(discussed_symptoms), data["diseases"])
                 follow_ups = [q for q in follow_ups if all(sym not in discussed_symptoms and sym not in denied_symptoms for sym in re.findall(r'\b([a-zA-Z ]+?)\b', q))][:2]
                 session["last_asked_symptoms"] = follow_ups

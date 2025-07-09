@@ -3,7 +3,7 @@ symptom_dialogue.py
 Module for multi-turn symptom dialogue and clarification.
 """
 
-from .disease_matching import get_matching_analysis, suggest_follow_up_questions
+from backend.disease_matching import get_matching_analysis, suggest_follow_up_questions
 
 def ask_for_more_symptoms(current_symptoms, all_symptoms):
     """Ask the user for more symptoms, prioritizing those that help narrow down the diagnosis."""
