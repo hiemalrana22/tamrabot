@@ -40,7 +40,7 @@ if OPENAI_API_KEY:
 OPENROUTER_API_KEY = os.environ.get('OPENROUTER_API_KEY')
 if not OPENROUTER_API_KEY:
     # Set the provided OpenRouter API key as default
-    OPENROUTER_API_KEY = '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'
+    OPENROUTER_API_KEY = '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'
     os.environ['OPENROUTER_API_KEY'] = OPENROUTER_API_KEY
     print("[INFO] Using default OpenRouter API key.")
 else:
